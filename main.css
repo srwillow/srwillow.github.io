@@ -492,6 +492,31 @@ input[type=checkbox]:checked ~ label ~ .content__hidetbl {
   display: block;
   clear: both;
 }
+
+/**********************/
+/* TABLE EoP : for now make columns sizes fixed */
+/* THEN look here to style it better : https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables*/
+.EouP__table
+{
+    table-layout: fixed;
+    width: 100%;
+}
+
+.tr:nth-child(even) {
+    background-color:aliceblue;/*#dac292;*/
+}
+
+/* table header colors */
+th {
+    background-color: #b9936c;
+    color: white;
+}
+
+.EouP__leftgenealogy
+{
+   width: 800px;
+}
+
 /*****
 .terms label {
     display: block;
