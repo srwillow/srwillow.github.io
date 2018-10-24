@@ -498,8 +498,8 @@ input[type=checkbox]:checked ~ label ~ .content__hidetbl {
 /* THEN look here to style it better : https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Styling_tables*/
 .EouP__table
 {
-    table-layout: fixed;
-    width: 100%;
+   /* table-layout: fixed;*/
+    width: 1200px;
 }
 
 .tr:nth-child(even) {
@@ -514,8 +514,21 @@ th {
 
 .EouP__leftgenealogy
 {
-   width: 800px;
+   width: 1000px;
 }
+
+/* ArbreEmardouPotvin */
+/* page 1 */
+.ArbreEouP__container {
+  min-height: 30vh;
+  display: grid;
+  grid-template-columns: 500px 800px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+        "EouPtree_pic detail__EouP" 
+  }
+
+
 
 /*****
 .terms label {
