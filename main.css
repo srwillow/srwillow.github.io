@@ -14,7 +14,7 @@ body {
   min-height: 150vh;
   display: grid;
   grid-template-columns: 130px auto;
-  grid-template-rows: 155px 1500px 120px 170px auto;
+  grid-template-rows: 185px 1500px 120px 170px auto;
   grid-template-areas: 
         "logo header" 
         "navbar content"
